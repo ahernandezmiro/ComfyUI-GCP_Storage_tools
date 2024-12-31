@@ -1,0 +1,14 @@
+[project]
+name = "gcp_storage_tools"
+description = "A set of ComfyUI nodes for GPC Storage access"
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/ahernandezmiro/ComfyUI-GCP_Storage_tools"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-GCP_Storage_tools"
+Icon = ""
