@@ -9,6 +9,6 @@ Repository = "https://github.com/ahernandezmiro/ComfyUI-GCP_Storage_tools"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "ahernandezmiro"
 DisplayName = "ComfyUI-GCP_Storage_tools"
 Icon = ""
