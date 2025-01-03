@@ -20,7 +20,7 @@ Both nodes support authentication using your GCP credentials file in JSON format
 
 1. Clone this repository into your `custom_nodes` directory within your ComfyUI installation:
    ```bash
-   git clone <repository-url> /path/to/ComfyUI/custom_nodes/gcp_nodes
+   git clone https://github.com/ahernandezmiro/ComfyUI-GCP_Storage_tools /path/to/ComfyUI/custom_nodes/gcp_nodes
    ```
 
 2. Install the required dependencies:
@@ -54,6 +54,7 @@ Both nodes support authentication using your GCP credentials file in JSON format
 2. Configure the following:
    - **Bucket Name**: Your GCP bucket name.
    - **File Path**: Path to the image file within the bucket.
+   - **File Name**: Name of the image file within the bucket path.
    - **Credentials File Path**: Full path to your GCP credentials JSON file.
 3. Connect the node to your workflow to fetch and use the image.
 
@@ -62,6 +63,7 @@ Both nodes support authentication using your GCP credentials file in JSON format
 2. Configure the following:
    - **Bucket Name**: Your GCP bucket name.
    - **Destination File Path**: Path where the image should be stored in the bucket.
+   - **File Name**: Name of the image file to be stored in the bucket.
    - **Credentials File Path**: Full path to your GCP credentials JSON file.
 3. Connect the node to your workflow to upload images to GCP.
 
